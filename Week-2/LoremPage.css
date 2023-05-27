@@ -1,0 +1,144 @@
+@media screen and (min-width: 481px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        font:"Serif";
+        color: rgba(203, 255, 80, 0.658);
+        background-color: black;
+    }
+
+    nav {
+        /* border: 1px solid black; */
+        margin-left: 30%;
+        width: 30%;
+        padding-left: 7em;
+    }
+
+    .center {
+        display: flex;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        width: 100%;
+    }
+
+    .Right {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        width: 100%;
+    }
+
+    .Right div {
+        margin-top: 1em;
+    }
+
+    .left img {
+        margin-top: 1.75em;
+        margin-left: 4.75em;
+        width: 17.5em;
+        height: 17.5em;
+        border: 1px solid whitesmoke;
+        border-radius: 8px;
+    }
+
+    form {
+        margin: 1.5em;
+        margin-top: 3.5em;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+        margin: 0.5em;
+        margin-top: 1.25em;
+    }
+
+    a {
+        color: rgb(209, 61, 86);
+    }
+
+    button {
+        width: 80px;
+        height: 20px;
+        margin-top: 5px;
+        /* margin-left: 2em; */
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    h1 {
+        text-align: center;
+        width: 80%;
+        margin: 2em;
+        margin-bottom: 0;
+    }
+    /* .down{
+        margin: 5%;
+        padding-left: 30%;
+    }
+    .down h3{
+        margin-left: 6em;
+    } */
+}
+h1,h3{
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font:"Serif";
+        color: rgba(203, 255, 80, 0.658);
+        background-color: black;
+
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        width: 90%;
+        margin: 1.5em;
+        margin-bottom: 0;
+        margin-left: 1em;
+    }
+
+    .left img {
+        margin: 1.5em;
+        margin-left: 2.9em;
+        width: 12em;
+        height: 12em;
+        border: 1px solid whitesmoke;
+        border-radius: 8px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 1.75em;
+    }
+    form {
+        margin: 1.5em;
+        margin-top: 3.5em;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+        margin: 0.5em;
+        margin-top: 1.25em;
+    }
+}
